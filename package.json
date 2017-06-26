@@ -1,0 +1,26 @@
+{
+  "name": "todolistapi",
+  "version": "1.0.0",
+  "description": "Building a NodeJS RESTful API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alfredosorio/RESTful-API-Tutorial.git"
+  },
+  "author": "Alfred Osorio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alfredosorio/RESTful-API-Tutorial/issues"
+  },
+  "homepage": "https://github.com/alfredosorio/RESTful-API-Tutorial#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongoose": "^4.11.0",
+    "nodemon": "^1.11.0"
+  }
+}
