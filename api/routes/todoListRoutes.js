@@ -1,7 +1,6 @@
 module.exports = (server => {
   const todoList = require('../controllers/todoListController')
-
-  // todoList Routes
+  
   server.route('/tasks')
     .get(todoList.list_all_tasks)
     .post(todoList.create_a_task)
