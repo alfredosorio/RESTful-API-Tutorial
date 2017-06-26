@@ -16,8 +16,8 @@ routes(server)
 
 server.listen(port)
 
-server.use((req, res) => {
-  res.status(404).send({ url: req.originalURL })
-})
+  server.use((req, res) => {
+    res.status(404).send({ url: req.originalURL })
+  })
 
 console.log('API started on port: ' + port)
